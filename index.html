@@ -73,6 +73,17 @@
             const averagePrice = totalPriceOfAllItemTypes / numberOfItems
           </code></pre>
         </section>
+        <section>
+          Refactor this code using functional principles.
+          <pre><code data-trim class="js">
+            for (let i = 0; i < data.length; i++) {
+              const nameArray = data[i].name.split(' ')
+              nameArray[1] = nameArray[1].toUpperCase()
+              data[i].name = nameArray.join(' ')
+            }
+          </code></pre>
+        </section>
+        <section>Find all the items that have the same variants (DIFFICULT!!!).</section>
       </div>
     </div>
 
