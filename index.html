@@ -32,6 +32,47 @@
         <section>Find all the items that are not purchasable.</section>
         <section>Sum the total number of each item in the data array.</section>
         <section>If item category = null, change it's value to 'no category'.</section>
+        <section>
+          Refactor this code using functional principles.
+          <pre><code data-trim class="js">
+            const preOrderedItems = []
+
+            for (let i = 0; i < data.length; i++) {
+              if (data[i].pre_order) {
+                preOrderedItems.push(data[i])
+              }
+            }
+
+            const firstItem = preOrderedItems[0]
+          </code></pre>
+        </section>
+        <section>
+          Refactor this code using functional principles.
+          <pre><code data-trim class="js">
+            const purchasableItemsWithVariants = []
+
+            for (let i = 0; i < data.length; i++) {
+              if (data[i].purchasable) {
+                if (data[i].variants.length > 0) {
+                  purchasableItemsWithVariants.push(data[i])
+                }
+              }
+            }
+          </code></pre>
+        </section>
+        <section>
+          Refactor this code using functional principles.
+          <pre><code data-trim class="js">
+            const numberOfItems = data.length
+            let totalPriceOfAllItemTypes = 0
+
+            for (let i = 0; i < data.length; i++) {
+              totalPriceOfAllItemTypes += data[i].price
+            }
+
+            const averagePrice = totalPriceOfAllItemTypes / numberOfItems
+          </code></pre>
+        </section>
       </div>
     </div>
 
