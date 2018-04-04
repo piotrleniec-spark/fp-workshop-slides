@@ -1,0 +1,178 @@
+[
+  {
+    "id": "1",
+    "name": "Boy Skinny",
+    "brand_name": "R13",
+    "category": null,
+    "pre_order": false,
+    "purchasable": true,
+    "price": 325,
+    "total_on_hand": 7182,
+    "variants": []
+  },
+  {
+    "id": "2",
+    "name": "Wide-Leg Trouser With Rockstuds",
+    "brand_name": "Valentino",
+    "category": null,
+    "pre_order": false,
+    "purchasable": true,
+    "price": 834,
+    "total_on_hand": 4841,
+    "variants": ["black", "gray"]
+  },
+  {
+    "id": "3",
+    "name": "Butterfly Top",
+    "brand_name": "Co",
+    "category": "tops",
+    "pre_order": false,
+    "purchasable": true,
+    "price": 295,
+    "total_on_hand": 3381,
+    "variants": []
+  },
+  {
+    "id": "4",
+    "name": "3/4 Sleeve Knit Top",
+    "brand_name": "Carven",
+    "category": "tops",
+    "pre_order": true,
+    "purchasable": true,
+    "price": 178,
+    "total_on_hand": 3111,
+    "variants": ["black", "gray"]
+  },
+  {
+    "id": "5",
+    "name": "Bardo Fade Tee",
+    "brand_name": "Cocurata",
+    "category": null,
+    "pre_order": false,
+    "purchasable": false,
+    "price": 211,
+    "total_on_hand": 5121,
+    "variants": []
+  },
+  {
+    "id": "6",
+    "name": "Bikini Panties",
+    "brand_name": "Afterlife",
+    "category": null,
+    "pre_order": true,
+    "purchasable": true,
+    "price": 183,
+    "total_on_hand": 4159,
+    "variants": ["red", "green"]
+  },
+  {
+    "id": "7",
+    "name": "Contrast Polo",
+    "brand_name": "G/FORE",
+    "category": "shirts",
+    "pre_order": false,
+    "purchasable": false,
+    "price": 245,
+    "total_on_hand": 7910,
+    "variants": ["black", "blue"]
+  },
+  {
+    "id": "8",
+    "name": "cove shirt",
+    "brand_name": "Alex Mill",
+    "category": "shirts",
+    "pre_order": true,
+    "purchasable": true,
+    "price": 310,
+    "total_on_hand": 6610,
+    "variants": []
+  },
+  {
+    "id": "9",
+    "name": "Golf Pants",
+    "brand_name": "G/FORE",
+    "category": null,
+    "pre_order": false,
+    "purchasable": true,
+    "price": 335,
+    "total_on_hand": 1630,
+    "variants": []
+  },
+  {
+    "id": "10",
+    "name": "granite v-neck t-shirt",
+    "brand_name": "Monrow",
+    "category": "shirts",
+    "pre_order": false,
+    "purchasable": false,
+    "price": 271,
+    "total_on_hand": 2390,
+    "variants": ["white", "yellow"]
+  },
+  {
+    "id": "11",
+    "name": "Kaila One-Piece Swimsuit",
+    "brand_name": "Les Coquines",
+    "category": null,
+    "pre_order": false,
+    "purchasable": true,
+    "price": 212,
+    "total_on_hand": 4113,
+    "variants": []
+  },
+  {
+    "id": "12",
+    "name": "Kiki Cami",
+    "brand_name": "St. Roche",
+    "category": null,
+    "pre_order": false,
+    "purchasable": true,
+    "price": 189,
+    "total_on_hand": 42,
+    "variants": []
+  },
+  {
+    "id": "13",
+    "name": "Level Contour Crop Top",
+    "brand_name": "Ultraco",
+    "category": "tops",
+    "pre_order": true,
+    "purchasable": true,
+    "price": 26,
+    "total_on_hand": 28,
+    "variants": []
+  },
+  {
+    "id": "14",
+    "name": "Lillie Side Cut-Out Bralette",
+    "brand_name": "Prae",
+    "category": null,
+    "pre_order": false,
+    "purchasable": true,
+    "price": 180,
+    "total_on_hand": 1102,
+    "variants": ["yellow", "white"]
+  },
+  {
+    "id": "15",
+    "name": "Long Sleeve Crew Tee",
+    "brand_name": "James Perse",
+    "category": null,
+    "pre_order": false,
+    "purchasable": true,
+    "price": 85,
+    "total_on_hand": 213,
+    "variants": []
+  },
+  {
+    "id": "16",
+    "name": "Long Tank",
+    "brand_name": "James Perse",
+    "category": null,
+    "pre_order": false,
+    "purchasable": false,
+    "price": 35,
+    "total_on_hand": 4021,
+    "variants": []
+  }
+]
