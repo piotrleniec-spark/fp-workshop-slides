@@ -124,6 +124,51 @@
             <li>"CTCTA" -> [["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]]</li>
           </ul>
         </section>
+        <section>
+          Array Pivot
+
+          <pre><code data-trim class="js">
+            [{ foo: 1311, bar: "cat", zzz: 124.31 }, { foo: 41, bar: 11 }, { foo: 159,  bar: 41, aaa: 12, zzz: 55 }]
+          </code></pre>
+
+          <pre><code data-trim class="js">
+            { foo: [1311, 41, 159], bar: ["cat", 11, 41], zzz: [124.31, 55], aaa: [12] }
+          </code></pre>
+        </section>
+        <section>
+          Functional CRUD
+
+          <pre><code data-trim class="js">
+            [
+              { id: 1, author: ‘John Doe’, message: ‘Hi, you there?’, sent_at: ‘15:03’ },
+              { id: 2, author: ‘Jane Doe’, message: ‘Yep, what’s up?’, sent_at: ‘18:49’ },
+              { id: 3, author: ‘John Doe’, message: ‘Would you like to get coffee sometime?’, sent_at: ‘18:55’ },
+              { id: 4, author: ‘Jane Doe’, message: ‘No.’, sent_at: ‘18:56’ },
+              { id: 5, author: ‘John Doe’, message: ‘Now I’m sad.’, sent_at: ‘18:57 }
+            ]
+          </code></pre>
+
+          <ol>
+            <li>Show only John Doe’s messages</li>
+            <li>Append one message to the array</li>
+            <li>Update 3rd message’s text</li>
+            <li>Remove 2nd message</li>
+          </ol>
+        </section>
+        <section>
+          Hashes/Objects
+
+          <pre><code data-trim class="js">
+            { a: "abc", b: "efg", c: "hij" }
+          </code></pre>
+
+          <ol>
+            <li>Set “klm” value under “d” key</li>
+            <li>Remove “b” key</li>
+            <li>Swap values and keys</li>
+            <li>Transform this object into an array of pairs -> [[“a”, “abc”], [“b”, “efg”], ...]</li>
+          </ol>
+        </section>
       </div>
     </div>
 
